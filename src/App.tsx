@@ -5,7 +5,7 @@ import { Header } from './components/ui/header';
 const App: React.FC = () => {
     return (
         <div>
-            <Header />
+            <Header text="ciao" persona={{ firstName: 'Paolo', lastName: 'Trombini' }} />
             <div className="container">
                 <div style={{ maxWidth: 400 }} className='card p-4 mx-auto'>
                     <h3 className='mb-3 text-center'>Accedi</h3>

@@ -1,4 +1,5 @@
-function Header() {
+
+export const Header: React.FC = () => {
     return (
         <nav className="navbar bg-light mb-4">
             <div className="container">
@@ -7,4 +8,3 @@ function Header() {
         </nav>
     );
 }
-export default Header;
